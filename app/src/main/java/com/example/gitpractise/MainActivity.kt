@@ -9,6 +9,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         println("THIS IS CONTAINED IN MY SECOND COMMIT")
         println("LOCAL CHANGE")
-        println("Change 2")
+        println("Change 3")
+        for (i in 0..8) {
+            print(i.toString())
+        }
     }
 }
