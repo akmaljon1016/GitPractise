@@ -10,5 +10,8 @@ class MainActivity : AppCompatActivity() {
         println("THIS IS CONTAINED IN MY SECOND COMMIT")
         println("LOCAL CHANGE")
         println("Change 3")
+        for (i in 0..8) {
+            print(i.toString())
+        }
     }
 }
