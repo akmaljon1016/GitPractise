@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         for (i in 0..8) {
             print(i.toString())
         }
+        println("Hello from yout friend")
     }
 }
